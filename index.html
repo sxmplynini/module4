@@ -1,0 +1,41 @@
+//<!--
+1) Start the HTML document with `<!DOCTYPE html>`.
+
+2) Open the `<html>` tag.
+
+3) Inside the `<body>` section:
+
+4) Add a paragraph `<p>` that explains the concept:
+   a) Text: "A function can access variables defined inside the function:"
+
+5) Add a button:
+   a) Use `<button type="button">Click Me!</button>`
+   b) Add `onclick="myFunction()"` so the function runs when clicked.
+
+6) Add output placeholders using paragraph tags:
+   a) `<p id="demo"></p>` for showing the multiplication result.
+   b) `<p id="demo1"></p>` for showing a value after clicking (optional extra output).
+   c) (If needed) Create another paragraph `<p id="demo2"></p>` for showing the value of `b`
+      because your code tries to update `demo2`.
+
+7) Add a `<script>` tag to write JavaScript.
+
+8) Inside the `<script>` tag:
+   a) Create a global variable `b` and store `5` in it.
+      - This variable can be accessed anywhere in the script.
+
+9) Create a function named `myFunction()`:
+   a) Inside the function, create a local variable `a` and store `4` in it.
+      - This variable exists ONLY inside the function.
+   b) Multiply `b * a` and display the result in the element with id `"demo"`.
+
+10) Important scope rule (what NOT to do):
+    a) Do NOT try to use `a` outside the function.
+       - Because `a` is local, it will cause an error if accessed outside `myFunction()`.
+
+11) If you want to display `b` outside the function:
+    a) Update `"demo2"` with `b` (only after adding `<p id="demo2"></p>` in HTML).
+
+12) Close all tags properly:
+    a) Close `</script>`, `</body>`, and `</html>`.
+-->
